@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'GHUnitIOS'
-  s.version  = 'private_call_fix'
+  s.version  = '0.5.8'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.summary  = 'Test Framework for Objective-C.'
   s.homepage = 'https://github.com/gh-unit/gh-unit'
