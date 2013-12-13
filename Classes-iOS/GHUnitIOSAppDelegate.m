@@ -46,11 +46,7 @@
 	
   if (getenv("GHUNIT_CLI")) {
     int exitStatus = [GHTestRunner run];
-    if ([application respondsToSelector:@selector(_terminateWithStatus:)]) {
-      [(id)application _terminateWithStatus:exitStatus];
-    } else {
-      exit(exitStatus);
-    }
+    exit(exitStatus);
   }
   GHUnitIOSViewController *viewController = [[GHUnitIOSViewController alloc] init];
   [viewController loadDefaults];
