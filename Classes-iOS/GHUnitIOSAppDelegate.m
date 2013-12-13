@@ -31,10 +31,6 @@
 #import "GHUnitIOSViewController.h"
 #import "GHUnit.h"
 
-@interface GHUnitIOSAppDelegate (Terminate)
-- (void)_terminateWithStatus:(int)status;
-@end
-
 @implementation GHUnitIOSAppDelegate
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
